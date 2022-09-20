@@ -7,8 +7,8 @@ function searchInsert(nums, target){
             nums.push(target);
             nums.sort(function(a, b){return a - b});
             res = (nums.indexOf(target));
-        }
-    }
+        };
+    };
     return (res);
-}
-console.log(searchInsert([1,3,5,6],7))
+};
+console.log(searchInsert([1,3,5,6],7));
