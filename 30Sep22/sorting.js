@@ -13,3 +13,8 @@ function selectionSort(array) {
     return array;
 }
 console.log(selectionSort([23,45,12,76,34,35]));
+[2,45,12,76,34,35]
+0,1,2,3,4,5
+i=0
+min=0
+j=3
